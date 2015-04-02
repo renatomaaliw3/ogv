@@ -1,0 +1,971 @@
+/* GLOBAL CSS */
+
+* {
+	
+	outline:none;
+
+}
+
+body, div, h1, h2, h3, h4, h5, h6,
+ol, ul, li, a, form, img, p {
+	
+	margin:0;
+	padding:0;
+	font-family:arial, sans-serif;
+	font-family:"Myriad Pro", Arial, sans-serif, serif;
+	
+}
+
+a img {
+
+	outline:none;
+	border:none;
+	
+}
+
+li a {
+
+	display:block;
+	outline:none;
+
+}
+
+li {
+	
+	list-style:none;
+
+}
+
+a {
+
+	text-decoration:none;
+
+}
+
+body#home {
+
+	background:#E3E8E8;
+
+
+}
+
+.bold {
+
+	font-weight:bold;
+
+}
+
+/* END GLOBAL CSS */
+
+
+/* WRAPPER */
+
+
+body div#wrapper {
+
+	width:520px;
+	overflow:auto;
+	overflow:auto;
+	margin:25px auto;
+	border:3px solid black;
+	padding-left:50px;
+	padding-bottom:45px;
+	padding-top:25px;
+	
+}
+
+
+/* BRANDING */
+
+body div#branding {
+
+	 width:520px;
+	 height:149px;
+	 background:white url(images/branding.png) no-repeat top left;
+	 margin-bottom:16px;
+
+
+}
+
+/* PREAMBLE */
+
+body div#preamble {
+
+	width:520px;	
+	font-size:.9em;
+	
+
+}
+
+body div#preamble p{
+
+	line-height:1.6em;
+	font-size:1.1em;
+
+}
+
+
+/* SIGN UP */
+
+body div#signup {
+
+	background:white url(images/signupbackground.png) repeat-y top left;
+	position:relative;
+	overflow:auto;
+	padding-bottom:12px;
+		
+}
+
+body div#signup  p {
+
+	background:white url(images/signup.png) repeat-y top left;
+	width:110px;
+	height:31px;
+	text-indent:-9999px;
+	position:absolute;
+	top:22px;
+	left:23px;
+
+	
+}
+
+body div#signup h3 {
+
+	background:white url(images/headersignup.png) no-repeat top left;
+	text-indent:-9999px;
+	height:11px;
+
+}
+
+body div#footersignup {
+
+	width:468px;
+	height:5px;
+	background:white url(images/footersignup.png) no-repeat top left;
+	
+}
+
+body div#signup form#signupform {
+
+	width:468px;
+	margin-top:45px;
+	
+}
+
+body div#signup form#signupform  div {
+
+	width:468px;
+	margin-left:23px;
+	padding-top:8px;
+	
+}
+
+body div#signup form#signupform  div label {
+
+	float:left;
+	width:30.5%;
+	margin-top:5px;
+	
+}
+
+body div#signup form#signupform  input[type="text"], body div#signup form#signupform  input[type="password"],
+body div#signup form#signupform  select#yearlevel {
+
+	width:280px;
+	-moz-border-radius:6px;
+	height:28px;
+	border:1px solid #012C6B;
+	padding:2px 4px 2px 4px;
+	font-size:.8em;
+	
+	
+}
+
+body div#signup form#signupform input.signupbutton {
+
+	-moz-border-radius:5px;
+	width:85px;
+	height:30px;
+	padding:2px;
+	border:1px solid #012C6B;
+	background:#0B008F;
+	color:#FFF;
+	font-weight:bold;
+	outline:none;
+
+}
+
+body div#signup form#signupform input.signupbutton:hover {
+
+	background:#060538;
+
+}
+
+/* LOGIN */
+
+body div#signup  p.login {
+
+	background:white url(images/login.png) repeat-y top left;
+	width:110px;
+	height:31px;
+	text-indent:-9999px;
+	position:absolute;
+	top:20px;
+	left:23px;
+
+	
+}
+
+/* INVALID for JavaScript Form Check */
+
+input.invalid , textarea.invalid {
+	
+	background:#FF9;
+	border:2px red inset;
+
+}
+
+/* HOME SCREEN SETUP */
+
+div#outerbox {
+
+	width: 739px;
+	min-height: 700px;
+	margin:25px auto;
+	overflow: auto;
+
+}
+
+div#outerbox div#branding2 {
+
+	width:739px;
+	background:white url(images/ogvhead.png) no-repeat top left;
+	height:188px;
+	position:relative;
+
+}
+
+div#outerbox div#branding2 div#navigation {
+
+	background:white url(images/ogvnav.png) no-repeat top left;
+	width:424px;
+	height:38px;
+	position:absolute;
+	top:7px;
+	left:44px;
+
+}
+
+div#outerbox div#branding2 h3 {
+
+	background:white url(images/logo.png) no-repeat top left;
+	width:225px;
+	height:87px;
+	position:absolute;
+	top:15px;
+	right:25px;
+	text-indent:-9999px;
+
+}
+
+div#outerbox div#branding2 h3#track {
+
+	background:white url(images/track.png) no-repeat top left;
+	width:281px;
+	height:31px;
+	position:absolute;
+	top:134px;
+	right:35px;
+	text-indent:-9999px;
+
+}
+
+div#outerbox div#branding2 input#student_search {
+
+	width:281px;
+	height:30px;
+	position:absolute;
+	top:136px;
+	right:35px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 5px;
+}
+
+
+div#outerbox div#branding2 ol#menu {
+
+	width:500px;
+	height:45px;
+	position:absolute;
+	left:48px;
+
+}
+
+
+div#outerbox div#branding2 ol#menu li {
+
+	float:left;
+	background:url(images/menudiv.png) no-repeat right top;
+	height:39px;
+	width:80px;
+	padding-right:1px;
+	
+	
+}
+
+div#outerbox div#branding2 ol#menu li a{
+
+	margin-right:10px;
+	width:80px;
+	display:block;
+	color:#000;
+	font-weight:bold;
+	text-align:center;
+	height:32px;
+	padding-top:7px;
+
+}
+
+div#outerbox div#branding2 ol#menu li a:hover {
+
+	background:white url(images/menubackground.png) repeat-x top left;
+	color:#FFF;
+
+}
+
+div#outerbox div#branding2 ol#year{
+
+	width:500px;
+	height:45px;
+	position:absolute;
+	top:65px;
+	left:40px;
+
+}
+
+div#outerbox div#branding2 ol#year li {
+
+	float:left;
+	margin-right:10px;
+	
+}
+
+div#outerbox div#branding2 ol#year li a:link, div#outerbox div#branding2 ol#year li a:visited {
+
+	display: block;
+	width: 80px;
+	height: 45px;
+	padding: 15px 0 0 0;
+	font-weight: bold;
+	font-size: 0.75em;
+	text-align: center;
+	color: #000;
+
+}
+
+div#outerbox div#branding2 ol#year li.firstyear {
+
+	background:white url(images/firstyear.png) no-repeat top left;
+	width:80px;
+	height:46px;
+
+}
+
+div#outerbox div#branding2 ol#year li.firstyear:hover {
+
+	background:white url(images/firstyearhover.png) no-repeat top left;
+
+}
+
+div#outerbox div#branding2 ol#year li.secondyear {
+
+	background:white url(images/secondyear.png) no-repeat top left;
+	width:78px;
+	height:47px;
+
+}
+
+div#outerbox div#branding2 ol#year li.secondyear:hover {
+
+	background:white url(images/secondyearhover.png) no-repeat top left;
+
+
+}
+
+div#outerbox div#branding2 ol#year li.thirdyear {
+
+	background:white url(images/thirdyear.png) no-repeat top left;
+	width:79px;
+	height:45px;
+	margin-top:1px;
+
+}
+
+div#outerbox div#branding2 ol#year li.thirdyear:hover {
+
+	background:white url(images/thirdyearhover.png) no-repeat top left;
+
+}
+
+div#outerbox div#branding2 ol#year li.fourthyear {
+
+	background:white url(images/fourthyear.png) no-repeat top left;
+	width:79px;
+	height:47px;
+
+}
+
+div#outerbox div#branding2 ol#year li.fourthyear:hover {
+
+	background:white url(images/fourthyearhover.png) no-repeat top left;
+
+}
+
+div#outerbox div#branding2 ol#year li.allyear {
+
+	background:white url(images/allyear.png) no-repeat top left;
+	width:78px;
+	height:47px;
+
+}
+
+div#outerbox div#branding2 ol#year li.allyear:hover {
+
+	background:white url(images/allyearhover.png) no-repeat top left;
+
+}
+
+div#outerbox div#branding2 ol#year li.folder {
+
+	background: white url(images/folder.png) no-repeat top left;
+	width:78px;
+	height:47px;
+
+}
+
+div#outerbox div#branding2 ol#year li.folder:hover {
+
+	background: white url(images/folder-hover.png) no-repeat top left;
+	
+
+}
+
+
+p.online {
+
+	color: rgb(255, 239, 132);
+	font-weight: bold;
+	font-size: 1.6em;
+	position: absolute;
+	top: 134px;
+	/* left: 31px; */
+	font-family: "Myriad Pro", Arial, san, sans-serif;
+	width: 100%;
+	text-align: center;
+
+}
+
+/* Profile */
+
+p.profiledetails {
+
+	text-align:center;
+	font-size:.8em;
+	width:200px;
+	padding:1px;
+	margin-bottom:4px;
+	text-transform: capitalize;
+	font-weight: bold;
+
+}
+
+img.profilepic {
+
+	border:1px solid #000;
+	margin-left:46px;
+	margin-top:25px;
+	margin-bottom:10px;"
+
+}
+
+div#outerbox div#profile {
+
+	float:left;
+	width:209px;
+	padding-right:17px;
+
+}
+
+div#outerbox div#profile div#profilecontents {
+
+	margin-top:5px;
+	margin-left:1px;
+	width:207px;
+	overflow:auto;
+	background:#FFF;
+	border-left:1px solid #999;
+	border-right:1px solid #999;
+	
+}
+
+div#outerbox div#profile div#profilecontents h3#profileheader {
+
+	background:url(images/profile.png) no-repeat top left;
+	width:207px;
+	height:36px;
+	text-indent:-9999px;
+
+}
+
+div#outerbox div#profile div#profilefooter {
+
+	background:url(images/profilefooter.png) no-repeat top left;
+	width:209px;
+	height:42px;
+	margin-left:1px;
+	
+}
+
+div#outerbox div#grades {
+
+	float:left;
+	width:510px;
+	overflow:auto;
+	margin-top:5px;
+
+}
+
+div#outerbox div#grades div#gradescontent {
+	
+	background: url(images/gradebackground.png) repeat-y top left;
+	border-bottom: 3px solid #999;
+	width: 506px;
+	margin-bottom: 15px;
+	overflow: auto;
+
+}
+
+div#outerbox div#grades div#gradescontent a:link, div#outerbox div#grades div#gradescontent a:visited {
+	
+	color: #000;
+
+}
+
+div#outerbox div#grades div#gradescontent a:hover, div#outerbox div#grades div#gradescontent a:active {
+	
+	color: #A70000;
+
+}
+
+
+div#outerbox div#grades div#gradescontent h3#gradeheader {
+	
+	background:url(images/contenttop.png) no-repeat top left;
+	width:504px;
+	height:16px;
+	
+}
+
+
+
+div#gradescontent div.summary {
+
+	width: 230px;
+	margin: 2px 0 2px 19px;
+	font-size: 0.75em;
+	float: left;
+	margin-bottom: 8px;
+
+}
+
+div#gradescontent div.summary p {
+
+	float: left;
+	width: 150px;
+
+}
+
+div#gradescontent div.summary span {
+
+	display: block;
+
+}
+
+/* TABLE */
+
+table.details {
+
+	border-collapse: collapse;
+	margin-top: 8px;
+	font-size: .7em;
+	margin-left: 18px;
+	margin-bottom: 25px;
+	width: 470px;
+
+}
+
+table.details thead {
+
+	background:#000;
+
+}
+
+table.details tr td {
+
+	text-align:center;
+	border:1px solid #000;
+	padding:3px;
+	
+}
+
+table.noborderdetails tr td {
+
+	text-align:center;
+	padding:3px;
+	
+}
+
+table.details tr td.code{
+
+	width:95px;
+	text-align:left;
+	font-weight:bold;
+	background:#96c3ed;
+
+}
+
+table.details tr td.description {
+
+	width:150px;
+	text-align:left;
+	font-weight:bold;
+	background:#96c3ed;
+	
+}
+
+table.details tr td.unit {
+
+	width: 18px;
+	font-weight:bold;
+	background:#96c3ed;
+	
+}
+
+table.details tr td.rating {
+
+	width:65px;
+	font-weight:bold;
+	background:#96c3ed;
+	
+}
+
+table.details tr td.leftalign {
+
+	text-align:left;
+	
+}
+
+table.details tr.semester {
+
+	background:#abf7a1;
+
+}
+
+
+/* ADMIN MENU */
+
+ol.menu {
+
+	padding: 10px 0px 10px 0;
+
+}
+
+ol.menu li {
+
+	padding: 3px;
+	text-align: center;
+
+}
+
+/* PAGINATION */
+
+/* common attributes for all the links [Pagination] */
+
+.pagination a {
+    padding: 4px;
+    border: 1px solid #AAA;
+    color: #333;
+    text-decoration: none;
+    margin-right: 2px;
+    display: block;
+    float: left;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+	
+}
+
+/* common attributes for the "next page" and "previous page" links */
+.pagination a.navigation {
+    width: 16px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-indent: -9000px;
+    border: 1px solid transparent;
+    overflow: hidden
+}
+
+/* hack for transparent borders in IE6 */
+*html .pagination a.navigation {
+    border-color: #000001;
+    filter: chroma(color=#000001);
+}
+
+/* hovered links */
+.pagination a:hover {
+    background-color: #DEDEDE;
+    color: #222;
+}
+
+/* specific attributes for the "next page" and "previous page" links */
+.pagination a.left { background-image: url(images/larrow.gif) }
+.pagination a.right { background-image: url(images/rarrow.gif) }
+
+/*  currently selected page; also, the current page doesn't need a hover effect */
+.pagination a.current,
+.pagination a.current:hover {
+    background: #0094D6;
+    border-color: #0094D6;
+    color: #FFF;
+}
+
+/* the "..." separator */
+.pagination span {
+    color: #666;
+    margin-right: 2px;
+    display: block;
+    float: left;
+    padding: 8px 4px
+}
+
+/* disabled links */
+a.disabled {
+    filter: alpha(opacity=20);
+    -khtml-opacity: 0.2;
+    -moz-opacity: 0.2;
+    opacity: 0.2
+}
+
+/* JQUERY */
+
+tr.yellow {
+
+	background:yellow;
+
+}
+
+tr.zebra {
+
+	background:#ebebea;
+
+}
+
+/* UPDATE LINK */
+
+td.update a:link, td.update a:visited {
+
+	color:black;
+
+}
+
+td.update a:hover, td.update a:active {
+
+	color:#f80909;
+
+}
+
+/* FORM PROFILE */
+
+form.profile {
+
+	margin-left: 25px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+
+
+}
+
+form.profile div {
+
+	width:400px;
+	padding-bottom:5px;
+
+}
+
+form.profile label {
+
+	float:left;
+	width:140px;
+
+}
+
+form.profile input[type="text"], form.profile select, form.profile input[type="password"] {
+
+	width:260px;
+	-moz-border-radius:5px;
+	padding:4px;
+	border:1px solid #000;
+
+}
+
+form.profile input[type="submit"] {
+
+	width:90px;
+	-moz-border-radius:5px;
+	padding:4px;
+	border:1px solid #000;
+	background:#72a4f0;
+
+}
+
+form.profile input[type="submit"]:hover  {
+
+	background:#70c3ea;
+
+}
+
+div.overlay {
+
+	min-width: 505px;
+	min-height: 125px;
+	padding-top: 10px;
+	background: rgba(14,4,44,0.9);
+	position: absolute;
+	border: 5px solid blue;
+	display: none;
+
+}
+
+div.overlay form#update_form {
+
+	margin-right: 20px;
+
+}
+
+div.overlay_search {
+
+	width: 275px;
+	min-height: 15px;
+	overflow: auto;
+	padding: 2px;
+	background: white;
+	position: absolute;
+	left: 558px;
+	top: 192px;
+	border: 1px solid #000;
+	font-size: 0.8em;
+	display: none;
+	z-index: 100;
+
+}
+
+div.overlay_search ol {
+
+	overflow: auto;
+
+}
+
+div.overlay_search ol li {
+
+	padding: 3px 2px 3px 2px;
+	border-bottom: 1px dotted rgb(231, 231, 231);
+
+}
+
+div.overlay_search ol li:last-child {
+
+	border: 0;
+
+}
+
+div.overlay p.close {
+
+	font-weight: bold;
+	position: absolute; 
+	top: 5px; 
+	right: 5px;
+	font-size: 0.8em;
+	color: #FFF;
+
+}
+
+div.overlay table.details {
+
+	color: red;
+
+}
+
+div.overlay table.details tr td {
+
+	border: 1px solid #FFF;
+	color: white;
+
+}
+
+
+div.overlay p.close:hover {
+
+	cursor: pointer;
+	color: rgb(228, 228, 9);
+	
+}
+
+
+/*ERROR*/
+
+ol#errormessages {
+
+	font-size: 0.8em;
+	padding: 0 0 5px 24px;
+
+
+}
+
+ol#errormessages h4 {
+
+	color: rgb(26, 218, 131);
+	background: #271313;
+	padding: 3px;
+	width: 35px;
+	border-radius: 3px;
+	margin-bottom: 10px;
+
+}
+
+ol#errormessages li {
+
+	color: rgb(197, 15, 15);
+	font-weight: bold;
+	
+}
+
+/* P GWA */
+
+p#gwaonhover {
+
+	display: none;
+	position: absolute;
+	font-weight: bold;
+	font-size: 0.75em;
+	background: #000;
+	color: #fff;
+	padding: 3px;
+	min-width: 30px;
+	
+}
+
+
+
+
